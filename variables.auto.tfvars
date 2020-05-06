@@ -1,0 +1,11 @@
+credentials        = "/Users/nickgulrajani/CLDNATIVEJUB/GKE-TF-DEMO/devopspatterns-91be5af4e233.json"
+project_id         = "devopspatterns"
+region             = "us-central1"
+zones              = ["us-central1-a"]
+name               = "nic-gke-cluster"
+machine_type       = "g1-small"
+min_count          = 1
+max_count          = 3
+disk_size_gb       = 10
+service_account    = "nic-terraform-gke@devopspatterns.iam.gserviceaccount.com"
+initial_node_count = 3
